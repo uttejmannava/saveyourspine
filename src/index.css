@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  background-color: #121212;
+  font-family: "Quicksand";
+}
+
+.intro-page {
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 50px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro-title {
+  margin-bottom: 50px;
+}
+
+.gifs {
+  display: flex;
+  margin: auto auto;
+  gap: 5vh;
+  pointer-events: auto;
+}
+
+.gif-container {
+  width: 20vw;
+  height: 30vw;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.gif-container:hover {
+  border-color: white;
+  transition: 300ms ease;
+}
+
+.gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.transition-button {
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background: black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 15px;
+  vertical-align: center;
+}
+
+.transition-button:hover {
+  border-color: white;
+  transition: 300ms ease;
+}
+
+.plug {
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+  width: 70vh;
+}
+
+.plug-link {
+  color: white;
+  text-decoration: none;
+}
+
+.plug-link:hover {
+  color: beige;
+  transition: 300ms ease;
+  text-decoration: underline;
+}
+
+.camera-container {
+  position: relative;
+  padding: 2vh;
+  border-radius: 20px;
+  border-color: none;
+  border: 20px
+}
+
+.camera-feed {
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.camera-canvas {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 640;
+  height: 480;
+  z-index: 2
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.no-camera {
+  color: white;
+  font-size: 40px;
+  padding: 10vh;
+}
+
+.posture {
+  width: 50vh;
+  max-width: 640px;
+  height: 10vh;
+  margin: 0 auto;
+  padding-bottom: 7vh;
+}
+
+.posture-text {
+  color: white;
+  font-size: 40px;
+}
+
+.difficulty-buttons {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+.home.red {
+  background-color: #af4141;
+  transition: 5000ms ease;
+}
+
+
+

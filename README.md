@@ -1,4 +1,4 @@
-**save your spine**
+**save your spine: **
 a little web app i made to make sure i remember HTML and CSS
 
 - used React for the first time; state management, reusable components, overall more dynamic elements

@@ -6,4 +6,4 @@ a little web app i made to make sure i remember HTML and CSS
 - first time doing client-side ML, and it was fairly smooth aside from the _little_ hiccup described below
 
 **what can i fix**
-- there's a memory leak somewhere and i'm quite confident it has to do with leftover variables from the running PoseNet model; still doing code reviews to figure this out, but i'm new 
+- there's a memory leak somewhere and i'm quite confident it has to do with leftover variables from the running PoseNet model; still doing code reviews to figure this out
